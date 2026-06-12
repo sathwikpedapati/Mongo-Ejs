@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get chats from whatsapp</title>
+</head>
+<body>
+    <h1> get all posts</h1>
+    <% for(let chat of chats){ %>
+    <div class="overview">
+      <p> from :<%= chat.from %></p>
+      <p> from :<%= chat.to %></p>
+      <p> from :<%= chat.mesaage %></p>
+      <p> from :<%= chat.created_at %></p>
+    </div>
+    <% }%>
+</body>
+</html>
